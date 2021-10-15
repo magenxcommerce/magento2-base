@@ -55,7 +55,7 @@
         "components/jqueryui": "1.10.4",
         "twbs/bootstrap": "3.1.0",
         "tinymce/tinymce": "3.4.7",
-        "magento/magento2-base": "self.version"
+        "magento/magento2-base": "*"
     },
     "extra": {
         "chmod": [
