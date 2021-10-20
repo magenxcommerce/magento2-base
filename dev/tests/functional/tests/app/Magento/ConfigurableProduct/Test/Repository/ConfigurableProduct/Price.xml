@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../vendor/magento/mtf/Magento/Mtf/Repository/etc/repository.xsd">
+    <repository class="Magento\ConfigurableProduct\Test\Repository\ConfigurableProduct\Price">
+        <dataset name="default">
+            <field name="category_price" xsi:type="string">1</field>
+        </dataset>
+        <dataset name="price_as-40.00">
+            <field name="compare_price" xsi:type="array">
+                <item name="price_as" xsi:type="string">40.00</item>
+            </field>
+        </dataset>
+        <dataset name="price_40">
+            <field name="category_price" xsi:type="string">40</field>
+            <field name="compare_price" xsi:type="string">40.00</field>
+        </dataset>
+        <dataset name="MAGETWO-12620">
+            <field name="category_price" xsi:type="string">11</field>
+        </dataset>
+        <dataset name="price_15">
+            <field name="category_price" xsi:type="string">15</field>
+            <field name="compare_price" xsi:type="string">15.00</field>
+        </dataset>
+    </repository>
+</config>
